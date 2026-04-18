@@ -1,35 +1,49 @@
-# Business — Generative Engine Optimization Map
+# נ.ט פרויקטים — Generative Engine Optimization Map
+
+> A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focuses on converting website visitors into paying customers, suggesting a service-oriented brand that emphasizes reliability, local expertise, and quick response times for residential and commercial clients in the south.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://nt-projects.zappy5.app
 A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focu
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://nt-projects.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://nt-projects.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://nt-projects.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About נ.ט פרויקטים
+A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focuses on converting website visitors into paying customers, suggesting a service-oriented brand that emphasizes reliability, local expertise, and quick response times for residential and commercial clients in the south.
+
+## Services/Products
+- תיקון שערי פאנלים
+- התקנת שערי פאנלים
+
+## Target Audience
+בעלי בתים ועסקים באזור דרום הארץ
+
+## Industry
+שירותי שערים חשמליים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://nt-projects.zappy5.app/sitemap.xml
+- **Robots.txt**: https://nt-projects.zappy5.app/robots.txt

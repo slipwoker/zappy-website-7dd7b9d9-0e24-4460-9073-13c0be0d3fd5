@@ -298,11 +298,37 @@
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -771,7 +797,7 @@
     <section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
   <!-- Background Image -->
   <div class="index-hero-bg">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1776511320665-fnha3ckkx" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="1381px" data-zappy-zoom-wrapper-height="842px"><img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A professional electric panel gate installation scene in bright southern Israel daylight. A uniformed technician in a blue work shirt is adjusting or repairing a large aluminum panel sliding gate at the entrance of a residential property. The gate is modern, silver-gray, with horizontal panels. The background shows a clean Israeli suburban home with warm stone walls, blue sky, and dry southern landscape. The scene conveys reliability, expertise, and local service. Wide landscape orientation, high resolution, photorealistic." width="1200" height="700" src="/assets/site-index-hero-image-1-1776512538841-nngp9y.webp?v=1776512540654" alt="טכנאי מקצועי מתקין שער פאנל חשמלי בדרום הארץ" data-hero-background="true" data-element-type="image" data-element-id="img-1776511320665-fnha3ckkx" style="object-position: 40% 37% !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 100% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1" data-zappy-original-width="1381" data-zappy-original-height="842" data-zappy-object-position="40% 37%"></div>
+    <div data-zappy-zoom-wrapper="true" data-element-id="img-1776511320665-fnha3ckkx" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; display: block !important; z-index: 1 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="1381px" data-zappy-zoom-wrapper-height="842px" data-zappy-zoom-wrapper-align="center"><img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A professional electric panel gate installation scene in bright southern Israel daylight. A uniformed technician in a blue work shirt is adjusting or repairing a large aluminum panel sliding gate at the entrance of a residential property. The gate is modern, silver-gray, with horizontal panels. The background shows a clean Israeli suburban home with warm stone walls, blue sky, and dry southern landscape. The scene conveys reliability, expertise, and local service. Wide landscape orientation, high resolution, photorealistic." width="1200" height="700" src="/assets/site-index-hero-image-1-1776512538841-nngp9y.webp?v=1776512540654" alt="טכנאי מקצועי מתקין שער פאנל חשמלי בדרום הארץ" data-hero-background="true" data-element-type="image" data-element-id="img-1776511320665-fnha3ckkx" style="object-position: 40% 37% !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 100% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1" data-zappy-original-width="1381" data-zappy-original-height="842" data-zappy-object-position="40% 37%"></div>
   </div>
 
   <!-- Scrim Overlay -->
@@ -788,14 +814,14 @@
       </div>
 
       <!-- Headline -->
-      <h1 class="index-hero-h1" style=""><span style="font-size: 3rem; letter-spacing: -0.02em;">תיקון והתקנת שערי פאנלים</span><br><span style="font-size: 3rem; letter-spacing: -0.02em;">חשמליים בדרום</span><br></h1>
+      <h1 class="index-hero-h1" style=""><span style="font-size: 3rem; letter-spacing: -0.02em;">תיקון והתקנת שערי פאנלים</span><br><span style="font-size: 3rem; letter-spacing: -0.02em;">חשמליים במרכז הארץ</span><br></h1>
 
       <!-- Subtitle -->
       <h3 class="index-hero-subtitle">מענה מהיר לבתים ועסקים — שירות אמין, מקצועי ומיידי<br>לכל תקלה בשער החשמלי שלך</h3>
 
       <!-- CTA Buttons -->
       <div class="index-hero-ctas">
-        <a href="tel:051-508-7701" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1776511320622-ixb4hxak9" data-native-element="true">
+        <a href="tel:051-508-7701" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1776511320622-ixb4hxak9" data-native-element="true" style="color: rgb(31, 41, 51) !important;">
           <i class="fa-solid fa-phone"></i>
           התקשר עכשיו
         </a>

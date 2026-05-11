@@ -7,21 +7,21 @@
 ## Pages
 
 ### בית
-https://nt-shearim.zappy5.app
+https://ntgates.co.il
 A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focu
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://nt-shearim.zappy5.app/privacy
+https://ntgates.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://nt-shearim.zappy5.app/terms
+https://ntgates.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://nt-shearim.zappy5.app/accessibility
+https://ntgates.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -34,8 +34,8 @@ Information about WCAG compliance and accessibility features.
 - Address: רח ירושלים, ראשון לציון, מרכז, ישראל
 
 ### Contact form
-- URL: https://nt-shearim.zappy5.app
-- Endpoint: https://nt-shearim.zappy5.app/api/email/contact-form
+- URL: https://ntgates.co.il
+- Endpoint: https://ntgates.co.il/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -66,6 +66,6 @@ A professional electric gate service company specializing in panel gate repairs 
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://nt-shearim.zappy5.app/sitemap.xml
-- Robots: https://nt-shearim.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://nt-shearim.zappy5.app/llms-full.txt
+- Sitemap (XML): https://ntgates.co.il/sitemap.xml
+- Robots: https://ntgates.co.il/robots.txt
+- Flattened page text (for LLMs): https://ntgates.co.il/llms-full.txt

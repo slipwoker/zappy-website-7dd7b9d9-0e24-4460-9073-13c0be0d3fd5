@@ -7,22 +7,43 @@
 ## Pages
 
 ### בית
-https://nt-projects.zappy5.app
+https://example.com
 A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focu
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://nt-projects.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://nt-projects.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://nt-projects.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- Email: ntprojectsales@gmail.com
+- Phone: 051-508-7701
+- Phone (tel): tel:0515087701
+- Address: לאה אמנו, קריית גת, דרום, ישראל
+
+### Contact form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
@@ -43,7 +64,8 @@ A professional electric gate service company specializing in panel gate repairs 
 
 ---
 
-# Additional Resources
+# Machine-readable feeds
 
-- **Sitemap**: https://nt-projects.zappy5.app/sitemap.xml
-- **Robots.txt**: https://nt-projects.zappy5.app/robots.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt

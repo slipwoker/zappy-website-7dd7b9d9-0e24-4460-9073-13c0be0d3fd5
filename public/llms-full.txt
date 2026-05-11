@@ -2,13 +2,13 @@
 
 A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focuses on converting website visitors into paying customers, suggesting a service-oriented brand that emphasizes reliability, local expertise, and quick response times for residential and commercial clients in the south.
 
-Source: https://example.com
+Source: https://nt-shearim.zappy5.app
 
 ---
 
 ## תיקון שערים חשמליים בדרום — נ.ט פרויקטים
 
-URL: https://example.com
+URL: https://nt-shearim.zappy5.app
 Description: A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focu
 
 תיקון שערים חשמליים בדרום — נ.ט שערים
@@ -893,7 +893,7 @@ Description: A professional electric gate service company specializing in panel 
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://nt-shearim.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1176,7 +1176,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://nt-shearim.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1468,7 +1468,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://nt-shearim.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש

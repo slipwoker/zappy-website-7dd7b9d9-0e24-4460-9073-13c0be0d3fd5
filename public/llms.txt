@@ -1,4 +1,4 @@
-# נ.ט פרויקטים — Generative Engine Optimization Map
+# נ.ט שערים — Generative Engine Optimization Map
 
 > A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focuses on converting website visitors into paying customers, suggesting a service-oriented brand that emphasizes reliability, local expertise, and quick response times for residential and commercial clients in the south.
 
@@ -29,9 +29,9 @@ Information about WCAG compliance and accessibility features.
 ## How to Contact Us
 
 - Email: ntprojectsales@gmail.com
-- Phone: 051-508-7701
-- Phone (tel): tel:0515087701
-- Address: לאה אמנו, קריית גת, דרום, ישראל
+- Phone: 077-231-4949
+- Phone (tel): tel:0772314949
+- Address: רח ירושלים, ראשון לציון, מרכז, ישראל
 
 ### Contact form
 - URL: https://example.com
@@ -49,7 +49,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About נ.ט פרויקטים
+## About נ.ט שערים
 A professional electric gate service company specializing in panel gate repairs and installations, operating in the southern region of Israel. The business focuses on converting website visitors into paying customers, suggesting a service-oriented brand that emphasizes reliability, local expertise, and quick response times for residential and commercial clients in the south.
 
 ## Services/Products

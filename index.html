@@ -1737,7 +1737,21 @@
     <i class="fab fa-whatsapp"></i>
   </a>
   
-  <div data-integration="accessibility:toolbar"></div>
+  <script>
+    // Google Ads Conversion Tracking — Contact Form Submission
+    (function() {
+      var form = document.querySelector('.contact-form');
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          if (form.checkValidity()) {
+            gtag('event', 'conversion', {'send_to': 'AW-17341880993/8Ll9CJ6n9qocEKG1oM1A'});
+          }
+        });
+      }
+    })();
+  </script>
+
+    <div data-integration="accessibility:toolbar"></div>
 
     <script src="/script.js"></script>
 

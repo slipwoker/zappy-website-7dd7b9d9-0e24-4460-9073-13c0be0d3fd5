@@ -830,7 +830,7 @@
 
       <!-- CTA Buttons -->
       <div class="index-hero-ctas">
-        <a href="tel:0772314949" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1776511320622-ixb4hxak9" data-native-element="true" style="color: rgb(31, 41, 51) !important;">
+        <a href="tel:0772314949" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1776511320622-ixb4hxak9" data-native-element="true" style="color: rgb(31, 41, 51) !important;" onclick="return gtag_report_conversion('tel:0772314949');">
           <i class="fa-solid fa-phone"></i>
           התקשר עכשיו
         </a>
@@ -1578,7 +1578,7 @@
           </ul>
         </div>
 
-        <p><a href="tel:0772314949" class="index-contact-section__cta-btn" style="color: rgb(31, 41, 51) !important; outline: currentcolor;" data-element-type="button" data-element-id="btn-1778489669120-myz8f1hc9" data-native-element="true">
+        <p><a href="tel:0772314949" class="index-contact-section__cta-btn" style="color: rgb(31, 41, 51) !important; outline: currentcolor;" data-element-type="button" data-element-id="btn-1778489669120-myz8f1hc9" data-native-element="true" onclick="return gtag_report_conversion('tel:0772314949');">
           <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle; margin-left:8px;">
             <path d="M3.5 3.5C3.5 3.5 5 2 6.5 3.5L8.5 6C9.5 7 8.5 8 8 8.5C8 8.5 9.5 11.5 12 12C12.5 11.5 13.5 10.5 14.5 11.5L16.5 13.5C18 15 16.5 16.5 16.5 16.5C15 18 5 14 3.5 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -1693,7 +1693,7 @@
             <div class="cta-icon-wrap"><i class="fas fa-tools" data-element-type="icon" data-element-id="icon-1776523862687-xhw1sytci" data-icon-type="fontawesome"></i></div>
             <p class="cta-label">שעות פעילות</p>
             <p class="cta-sub">א׳–ה׳: 07:00–17:00 | ו׳: 09:00–14:00</p>
-            <p><a href="tel:0772314949" class="cta-btn" data-element-type="button" data-element-id="btn-1776523862684-l5adup295" data-native-element="true">התקשר עכשיו</a>
+            <p><a href="tel:0772314949" class="cta-btn" data-element-type="button" data-element-id="btn-1776523862684-l5adup295" data-native-element="true" onclick="return gtag_report_conversion('tel:0772314949');">התקשר עכשיו</a>
           </p></div>
         </div>
 
@@ -1737,6 +1737,23 @@
     <i class="fab fa-whatsapp"></i>
   </a>
   
+  <script>
+    // Google Ads Click-to-Call Conversion Tracking
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17341880993/xROdCLSQmq8cEKG1oM1A',
+          'value': 120.0,
+          'currency': 'ILS',
+          'event_callback': callback
+      });
+      return false;
+    }
+  </script>
   <script>
     // Google Ads Conversion Tracking — Contact Form Submission
     (function() {

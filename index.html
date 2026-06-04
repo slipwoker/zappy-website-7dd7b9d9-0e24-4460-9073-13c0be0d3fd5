@@ -763,6 +763,7 @@
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
           : '051-508-7701';
         
+        gtag_report_conversion('tel:' + phoneNumber);
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
       });
@@ -824,14 +825,14 @@
       <!-- Amber trust chip -->
       <div class="index-hero-chip">
         <i class="fa-solid fa-shield-halved" data-element-type="icon" data-element-id="icon-1776511320652-4pfxj3vie" data-icon-type="fontawesome"></i>
-        <span style="">מומחים מקומיים&nbsp;</span>
+        <span >מומחים מקומיים&nbsp;</span>
       </div>
 
       <!-- Headline -->
-      <h1 class="index-hero-h1" style="">תיקון והתקנת שערים חשמליים — טכנאי שערים מקצועי, שירות מהיר ואמין לבתים ועסקים</h1>
+      <h1 class="index-hero-h1" >תיקון והתקנת שערים חשמליים — טכנאי שערים מקצועי, שירות מהיר ואמין לבתים ועסקים</h1>
 
       <!-- Subtitle -->
-      <h3 class="index-hero-subtitle" style="">תיקון שערים חשמליים, התקנת שערי חניה, תיקון מנועים לשערים — לכל סוגי השערים: פנלים, הרמה ונגררים. שירות מקצועי ואמין, זמין גם לתקלות דחופות. מתקשרים, מגיעים!</h3>
+      <h3 class="index-hero-subtitle" >תיקון שערים חשמליים, התקנת שערי חניה, תיקון מנועים לשערים — לכל סוגי השערים: פנלים, הרמה ונגררים. שירות מקצועי ואמין, זמין גם לתקלות דחופות. מתקשרים, מגיעים!</h3>
 
       <!-- CTA Buttons -->
       <div class="index-hero-ctas">
@@ -847,9 +848,9 @@
 
       <!-- Trust Row -->
       <div class="index-hero-trust">
-        <div class="index-hero-trust-item" style="">
+        <div class="index-hero-trust-item" >
           <i class="fa-solid fa-location-dot" data-element-type="icon" data-element-id="icon-1776511320652-fhukdvj5m" data-icon-type="fontawesome" style="cursor: pointer;"></i>
-          <span style="">&nbsp;ישראל</span>
+          <span >&nbsp;ישראל</span>
         </div>
         <div class="index-hero-trust-divider" aria-hidden="true"></div>
         <div class="index-hero-trust-item">
@@ -881,8 +882,8 @@
     <!-- Centered Intro Block -->
     <div class="index-services-intro">
       <p><span class="index-services-label" style="color: rgb(31, 41, 51) !important;">השירותים שלנו</span>
-      </p><h2 class="index-services-title" style="">תיקון שערים חשמליים, התקנת שערי חניה ומנועים — שירות מקצועי</h2>
-      <p class="index-services-subtitle" style="">נ.ט שערים — טכנאי שערים חשמליים מוסמך. מספקים פתרונות מקצועיים לתיקון שערים חשמליים והתקנת שערי חניה לבתים פרטיים, עסקים ואתרים תעשייתיים. תיקון מנועים, לוחות בקרה, חיישנים ושלטים — מענה מהיר, רכיבים איכותיים ועבודה אמינה.</p>
+      </p><h2 class="index-services-title" >תיקון שערים חשמליים, התקנת שערי חניה ומנועים — שירות מקצועי</h2>
+      <p class="index-services-subtitle" >נ.ט שערים — טכנאי שערים חשמליים מוסמך. מספקים פתרונות מקצועיים לתיקון שערים חשמליים והתקנת שערי חניה לבתים פרטיים, עסקים ואתרים תעשייתיים. תיקון מנועים, לוחות בקרה, חיישנים ושלטים — מענה מהיר, רכיבים איכותיים ועבודה אמינה.</p>
     </div>
 
     <!-- 3-Card Grid -->
@@ -898,10 +899,10 @@
           </svg>
         </div>
         <div class="index-services-card-body">
-          <p style=""><span class="index-services-card-tag" style="color: rgb(31, 41, 51) !important;">תיקון</span>
-          </p><h3 class="index-services-card-title" style="">תיקון שערי חניה</h3>
-          <p class="index-services-card-text" style="">אבחון מהיר ומדויק של תקלות בשערי חניה חשמליים — מנועים, לוחות בקרה, חיישנים, מסילות ותקלות פתיחה. אנחנו מגיעים לשטח, מאתרים את הבעיה ומתקנים בצורה בטוחה עם חלפים איכותיים שמבטיחים אורך חיים.</p>
-          <ul class="index-services-card-features" style=""><li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287212-6z37kv7hx" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>הגעה מהירה&nbsp;</span></li><li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287212-s31w5p50q" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>אבחון מקצועי במקום</span></li><li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287213-6u3hu6kh2" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>חלפים מקוריים ואיכותיים</span></li></ul>
+          <p ><span class="index-services-card-tag" style="color: rgb(31, 41, 51) !important;">תיקון</span>
+          </p><h3 class="index-services-card-title" >תיקון שערי חניה</h3>
+          <p class="index-services-card-text" >אבחון מהיר ומדויק של תקלות בשערי חניה חשמליים — מנועים, לוחות בקרה, חיישנים, מסילות ותקלות פתיחה. אנחנו מגיעים לשטח, מאתרים את הבעיה ומתקנים בצורה בטוחה עם חלפים איכותיים שמבטיחים אורך חיים.</p>
+          <ul class="index-services-card-features" ><li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287212-6z37kv7hx" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>הגעה מהירה&nbsp;</span></li><li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287212-s31w5p50q" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>אבחון מקצועי במקום</span></li><li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287213-6u3hu6kh2" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>חלפים מקוריים ואיכותיים</span></li></ul>
         </div>
       </article>
 
@@ -918,8 +919,8 @@
         </div>
         <div class="index-services-card-body">
           <p><span class="index-services-card-tag" style="color: rgb(31, 41, 51) !important;">התקנה</span>
-          </p><h3 class="index-services-card-title" style="">התקנת שערי חניה&nbsp;</h3>
-          <p class="index-services-card-text" style="">התקנה מקצועית ומסודרת של שערי חניה חשמליים חדשים לבתים ועסקים. אנחנו מלווים אתכם מבחירת הדגם המתאים, דרך ההתקנה המדויקת, ועד לכיוון המערכת ומסירתה תקינה ובטוחה לשימוש.</p>
+          </p><h3 class="index-services-card-title" >התקנת שערי חניה&nbsp;</h3>
+          <p class="index-services-card-text" >התקנה מקצועית ומסודרת של שערי חניה חשמליים חדשים לבתים ועסקים. אנחנו מלווים אתכם מבחירת הדגם המתאים, דרך ההתקנה המדויקת, ועד לכיוון המערכת ומסירתה תקינה ובטוחה לשימוש.</p>
           <ul class="index-services-card-features">
             <li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287213-rxowdp85k" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>ייעוץ והתאמה אישית</span></li>
             <li><i class="fas fa-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287213-nn89uzgjb" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><span>התקנה נקייה ומסודרת</span></li>
@@ -954,7 +955,7 @@
     </div>
 
     <!-- Reassurance Line -->
-    <p class="index-services-reassurance" style="">
+    <p class="index-services-reassurance" >
       <i class="fas fa-map-marker-alt" aria-hidden="true" data-element-type="icon" data-element-id="icon-1778489287213-0optyqwqj" data-icon-type="fontawesome" style="cursor: pointer;"></i>&nbsp;ישראל<strong><br></strong>
     </p>
 
@@ -993,7 +994,7 @@
         </svg>
         שירות מקצועי
       </div>
-      <h2 class="motors-services-title" id="motors-section-title" style="">תיקון והתקנת מנועים לשערי הרמה ונגררים</h2>
+      <h2 class="motors-services-title" id="motors-section-title" >תיקון והתקנת מנועים לשערי הרמה ונגררים</h2>
       <p class="motors-services-subtitle">מתמחים גם בתיקון והתקנת מנועים לשערי הרמה ושערי נגרר — פתרון מלא לכל סוגי השערים החשמליים</p>
     </header>
 
@@ -1003,7 +1004,7 @@
       <!-- Card 1: תיקון מנועים לשערי הרמה -->
       <article class="motors-card" aria-label="תיקון מנועים לשערי הרמה" data-grid-item-index="0">
         <div class="motors-card-image-wrap">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780220893340-0gvq4hjvg" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="190px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 190px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780566092917-b7ura7.webp?v=1780566095360" alt="טכנאי מתקן מנוע לשער הרמה חשמלי" class="motors-card-img" data-placeholder="motors-repair-1" data-context="Professional technician repairing an electric garage door motor, close-up of hands working on motor mechanism, industrial tools visible, professional work environment" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1780220893340-0gvq4hjvg" style="object-position: 50% 50% !important; margin: 0px !important; left: -5% !important; top: -12.200658% !important; width: 110% !important; height: 124.401316% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important" data-zappy-zoom="1.1" data-zappy-object-position="50% 50%" data-zappy-original-width="382" data-zappy-original-height="190"></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780220893340-0gvq4hjvg" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="190px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 190px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780566092917-b7ura7.webp?v=1780566095360" alt="טכנאי מתקן מנוע לשער הרמה חשמלי" class="motors-card-img" data-placeholder="motors-repair-1" data-context="Professional technician repairing an electric garage door motor, close-up of hands working on motor mechanism, industrial tools visible, professional work environment" data-element-type="image" data-element-id="img-1780220893340-0gvq4hjvg" style="object-position: 50% 50% !important; margin: 0px !important; left: -5% !important; top: -12.200658% !important; width: 110% !important; height: 124.401316% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important" data-zappy-zoom="1.1" data-zappy-object-position="50% 50%" data-zappy-original-width="382" data-zappy-original-height="190"></div>
           <div class="motors-card-img-overlay" aria-hidden="true"></div>
         </div>
         <div class="motors-card-content">
@@ -1035,7 +1036,7 @@
       <article class="motors-card motors-card--featured" aria-label="התקנת מנוע חדש לשער הרמה" data-grid-item-index="1">
         <div class="motors-card-featured-badge" aria-label="שירות מומלץ">מומלץ</div>
         <div class="motors-card-image-wrap">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780220893340-qmrmqe75e" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="190px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 190px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780221032844-aaudwj.webp?v=1780221034928" alt="התקנת מנוע חדש לשער הרמה" class="motors-card-img" data-placeholder="motors-install-1" data-context="New electric gate motor installation on a modern garage door, technician mounting motor unit to ceiling rail, clean professional installation, residential garage" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1780220893340-qmrmqe75e" style="object-position: 26% 0% !important; display: block; margin-top: 0px !important; margin-bottom: 0px !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 140.631579% !important; max-width: none !important; max-height: none !important; object-fit: fill !important; position: absolute !important" data-zappy-zoom="0.9" data-zappy-original-width="382" data-zappy-original-height="190" data-zappy-object-position="26% 0%"></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780220893340-qmrmqe75e" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="190px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 190px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780221032844-aaudwj.webp?v=1780221034928" alt="התקנת מנוע חדש לשער הרמה" class="motors-card-img" data-placeholder="motors-install-1" data-context="New electric gate motor installation on a modern garage door, technician mounting motor unit to ceiling rail, clean professional installation, residential garage" data-element-type="image" data-element-id="img-1780220893340-qmrmqe75e" style="object-position: 26% 0% !important; display: block; margin-top: 0px !important; margin-bottom: 0px !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 140.631579% !important; max-width: none !important; max-height: none !important; object-fit: fill !important; position: absolute !important" data-zappy-zoom="0.9" data-zappy-original-width="382" data-zappy-original-height="190" data-zappy-object-position="26% 0%"></div>
           <div class="motors-card-img-overlay" aria-hidden="true"></div>
         </div>
         <div class="motors-card-content">
@@ -1066,7 +1067,7 @@
       <!-- Card 3: מנועים לשערי נגרר -->
       <article class="motors-card" aria-label="מנועים לשערי נגרר" data-grid-item-index="2">
         <div class="motors-card-image-wrap">
-          <input type="checkbox" id="zappy-lightbox-toggle-img-1780220893340-z6xdt6bu7" class="zappy-lightbox-toggle" data-zappy-image-lightbox="true"><label class="zappy-lightbox-trigger" for="zappy-lightbox-toggle-img-1780220893340-z6xdt6bu7" data-zappy-image-lightbox="true"><div data-zappy-zoom-wrapper="true" data-element-id="img-1780220893340-z6xdt6bu7" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="190px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="right" style="cursor: pointer; position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: 0px !important; height: 190px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-click-action="expand"><img src="/assets/image-1780565994271-c9le7z.webp?v=1780565999238" alt="מנוע לשער נגרר חשמלי" class="motors-card-img" data-placeholder="motors-sliding-gate-1" data-context="Electric sliding gate motor installation at residential property entrance, automatic sliding gate with motor unit visible, professional installation, modern home driveway" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1780220893340-z6xdt6bu7" style="object-position: 50% 33% !important; margin: 0px !important; left: -3% !important; top: -19.747113% !important; width: 106% !important; height: 159.839738% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important" data-zappy-zoom="1.06" data-zappy-original-width="382" data-zappy-original-height="190" data-zappy-object-position="50% 33%" data-zappy-click-action="expand" data-zappy-mobile-object-position="75% 42%" data-zappy-mobile-zoom="1.7"></div></label>
+          <input type="checkbox" id="zappy-lightbox-toggle-img-1780220893340-z6xdt6bu7" class="zappy-lightbox-toggle" data-zappy-image-lightbox="true"><label class="zappy-lightbox-trigger" for="zappy-lightbox-toggle-img-1780220893340-z6xdt6bu7" data-zappy-image-lightbox="true"><div data-zappy-zoom-wrapper="true" data-element-id="img-1780220893340-z6xdt6bu7" data-element-type="image" data-zappy-zoom-wrapper-width="382px" data-zappy-zoom-wrapper-height="190px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="right" style="cursor: pointer; position: relative !important; overflow: hidden !important; width: 382px !important; max-width: 100% !important; margin-left: auto !important; margin-right: 0px !important; height: 190px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-click-action="expand"><img src="/assets/image-1780565994271-c9le7z.webp?v=1780565999238" alt="מנוע לשער נגרר חשמלי" class="motors-card-img" data-placeholder="motors-sliding-gate-1" data-context="Electric sliding gate motor installation at residential property entrance, automatic sliding gate with motor unit visible, professional installation, modern home driveway" data-element-type="image" data-element-id="img-1780220893340-z6xdt6bu7" style="object-position: 50% 33% !important; margin: 0px !important; left: -3% !important; top: -19.747113% !important; width: 106% !important; height: 159.839738% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important" data-zappy-zoom="1.06" data-zappy-original-width="382" data-zappy-original-height="190" data-zappy-object-position="50% 33%" data-zappy-click-action="expand" data-zappy-mobile-object-position="75% 42%" data-zappy-mobile-zoom="1.7"></div></label>
           <div class="motors-card-img-overlay" aria-hidden="true"></div>
         </div>
         <div class="motors-card-content">
@@ -1107,7 +1108,7 @@
         </div>
         <p class="motors-cta-text">צריכים תיקון או התקנת מנוע? <strong>אנחנו מגיעים אליכם מהר!</strong></p>
       </div>
-      <p style="color: rgb(250, 250, 247) !important;"><a href="tel:0772314949" class="motors-cta-btn" aria-label="התקשרו עכשיו לנ.ט שערים לתיקון והתקנת מנועים" data-element-type="button" data-element-id="btn-1780220893338-xrcbobmwt" data-native-element="true" style="outline: medium;">
+      <p style="color: rgb(250, 250, 247) !important;"><a href="tel:0772314949" class="motors-cta-btn" aria-label="התקשרו עכשיו לנ.ט שערים לתיקון והתקנת מנועים" data-element-type="button" data-element-id="btn-1780220893338-xrcbobmwt" data-native-element="true" style="outline: medium;" onclick="return gtag_report_conversion('tel:0772314949');">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.1 6.1l.97-.97a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
@@ -1152,14 +1153,14 @@
     <div class="nt-springs-grid zappy-preserve-css-grid" role="list" data-original-item-width="381" data-original-gap="28px" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
 
       <!-- Card 1: Parking Gate Springs -->
-      <article class="nt-springs-card" role="listitem" data-grid-item-index="0" style="">
+      <article class="nt-springs-card" role="listitem" data-grid-item-index="0" >
         <div class="nt-springs-card-corner nt-springs-card-corner--tl" aria-hidden="true"></div>
         <div class="nt-springs-card-corner nt-springs-card-corner--tr" aria-hidden="true"></div>
         <div class="nt-springs-card-corner nt-springs-card-corner--bl" aria-hidden="true"></div>
         <div class="nt-springs-card-corner nt-springs-card-corner--br" aria-hidden="true"></div>
 
         <div class="nt-springs-card-image-wrap">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780567806961-7o3i8njw7" data-element-type="image" data-zappy-zoom-wrapper-width="379px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 379px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 180px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780567898661-eq8h0t.webp?v=1780567901528" alt="תיקון והחלפת קפיצים לשערי חניה" class="nt-springs-card-image" data-placeholder="springs-parking-gate-1" data-context="Close-up professional repair of heavy-duty torsion springs on an electric parking gate, industrial setting, tools visible, blue lighting" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1780567806961-7o3i8njw7" style="object-position: 58% 58% !important; margin: 0px !important; left: -11.6% !important; top: -51.91% !important; width: 120% !important; height: 189.5% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.2" data-zappy-original-width="379.328125" data-zappy-original-height="180" data-zappy-object-position="58% 58%"></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780567806961-7o3i8njw7" data-element-type="image" data-zappy-zoom-wrapper-width="379px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 379px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 180px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780567898661-eq8h0t.webp?v=1780567901528" alt="תיקון והחלפת קפיצים לשערי חניה" class="nt-springs-card-image" data-placeholder="springs-parking-gate-1" data-context="Close-up professional repair of heavy-duty torsion springs on an electric parking gate, industrial setting, tools visible, blue lighting" data-element-type="image" data-element-id="img-1780567806961-7o3i8njw7" style="object-position: 58% 58% !important; margin: 0px !important; left: -11.6% !important; top: -51.91% !important; width: 120% !important; height: 189.5% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.2" data-zappy-original-width="379.328125" data-zappy-original-height="180" data-zappy-object-position="58% 58%"></div>
           <div class="nt-springs-card-image-overlay" aria-hidden="true"></div>
         </div>
 
@@ -1197,7 +1198,7 @@
       </article>
 
       <!-- Card 2: Lift Gate Springs -->
-      <article class="nt-springs-card nt-springs-card--featured" role="listitem" data-grid-item-index="1" style="">
+      <article class="nt-springs-card nt-springs-card--featured" role="listitem" data-grid-item-index="1" >
         <div class="nt-springs-card-corner nt-springs-card-corner--tl" aria-hidden="true"></div>
         <div class="nt-springs-card-corner nt-springs-card-corner--tr" aria-hidden="true"></div>
         <div class="nt-springs-card-corner nt-springs-card-corner--bl" aria-hidden="true"></div>
@@ -1205,7 +1206,7 @@
         <div class="nt-springs-card-featured-badge" aria-label="הנפוץ ביותר">הנפוץ ביותר</div>
 
         <div class="nt-springs-card-image-wrap">
-          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780567806961-j5r6phupk" data-element-type="image" data-zappy-zoom-wrapper-width="379px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 379px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 180px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780568039953-co2f6m.webp?v=1780568042401" alt="קפיצים לשערי הרמה" class="nt-springs-card-image" data-placeholder="springs-lift-gate-2" data-context="Electric lift gate with visible spring mechanism, overhead garage door springs being installed by a technician, professional industrial repair" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1780567806961-j5r6phupk" style="object-position: 66% 0% !important; margin: 0px !important; left: -3.3% !important; top: 0% !important; width: 105% !important; height: 124.359375% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.05" data-zappy-original-width="379.328125" data-zappy-original-height="180" data-zappy-object-position="66% 0%"></div>
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1780567806961-j5r6phupk" data-element-type="image" data-zappy-zoom-wrapper-width="379px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 379px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 180px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="/assets/image-1780568039953-co2f6m.webp?v=1780568042401" alt="קפיצים לשערי הרמה" class="nt-springs-card-image" data-placeholder="springs-lift-gate-2" data-context="Electric lift gate with visible spring mechanism, overhead garage door springs being installed by a technician, professional industrial repair" data-element-type="image" data-element-id="img-1780567806961-j5r6phupk" style="object-position: 66% 0% !important; margin: 0px !important; left: -3.3% !important; top: 0% !important; width: 105% !important; height: 124.359375% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.05" data-zappy-original-width="379.328125" data-zappy-original-height="180" data-zappy-object-position="66% 0%"></div>
           <div class="nt-springs-card-image-overlay" aria-hidden="true"></div>
         </div>
 
@@ -1280,9 +1281,9 @@
 
     <!-- START (RIGHT) COLUMN: Content -->
     <div class="index-benefits-content">
-      <p style=""><span class="index-benefits-eyebrow" style="color: rgb(31, 41, 51) !important;">למה לבחור בנו?</span>
-      </p><h2 class="index-benefits-heading" style="">המומחים המקומיים לתיקון שערים חשמליים&nbsp;</h2>
-      <p class="index-benefits-intro" style="">אנחנו מספקים שירות מהיר, אמין ומקצועי לבעלי בתים ועסקים . מתיקון שערי חניה פנלים ועד התקנות חדשות – אנחנו כאן בשבילכם.</p>
+      <p ><span class="index-benefits-eyebrow" style="color: rgb(31, 41, 51) !important;">למה לבחור בנו?</span>
+      </p><h2 class="index-benefits-heading" >המומחים המקומיים לתיקון שערים חשמליים&nbsp;</h2>
+      <p class="index-benefits-intro" >אנחנו מספקים שירות מהיר, אמין ומקצועי לבעלי בתים ועסקים . מתיקון שערי חניה פנלים ועד התקנות חדשות – אנחנו כאן בשבילכם.</p>
 
       <ul class="index-benefits-list" style="display: grid; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-explicit-columns="true">
 
@@ -1370,7 +1371,7 @@
     <!-- Section Header -->
     <div class="showcase-header">
       <p><span class="showcase-eyebrow" style="color: rgb(31, 41, 51) !important;">עבודות מהשטח</span>
-      </p><h2 class="showcase-title" style="">פרויקטים שביצענו – תיקון והתקנת שערי חניה פנלים&nbsp;</h2>
+      </p><h2 class="showcase-title" >פרויקטים שביצענו – תיקון והתקנת שערי חניה פנלים&nbsp;</h2>
       <p class="showcase-subtitle">כל פרויקט מקבל יחס מקצועי, ביצוע מדויק ותוצאה שעומדת בזמן. כך נראית עבודה אמיתית מהשטח.</p>
       <div class="showcase-divider-rule">
         <span class="tick"></span><span class="tick"></span><span class="tick"></span><span class="tick"></span><span class="tick"></span>
@@ -1387,7 +1388,7 @@
           <div class="project-badge">מגורים</div>
         </figure>
         <div class="showcase-card-body">
-          <h3 class="showcase-card-title" style="">תיקון שער פנלים לבית פרטי</h3>
+          <h3 class="showcase-card-title" >תיקון שער פנלים לבית פרטי</h3>
           <p class="showcase-card-result"><span class="result-icon"><svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="7" cy="7" r="7" fill="#1E88E5" opacity="0.12"></circle><path d="M3.5 7.25L5.8 9.5L10.5 4.5" stroke="#1E88E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>פתיחה חלקה ושקטה שוחזרה במלואה</p>
         </div>
       </article>
@@ -1396,7 +1397,7 @@
       <article class="showcase-card" data-grid-item-index="1" style="display: flex !important; flex-direction: column !important; justify-content: flex-start !important; align-items: stretch !important; align-self: stretch !important; height: 100% !important;">
         <figure class="showcase-figure">
           <div data-zappy-zoom-wrapper="true" data-element-id="img-1776512279764-yae614er1" data-element-type="image" data-zappy-zoom-wrapper-width="584px" data-zappy-zoom-wrapper-height="335px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 584px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 335px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center"><img data-placeholder="index-showcase-image-2" data-context="A newly installed commercial panel gate at a business entrance in southern Israel — a large industrial-grade sliding panel gate at the entrance of a warehouse or small business yard, brand new, with a motor unit visible, clean concrete surroundings. Professional service photo style." width="600" height="400" src="/assets/site-index-showcase-image-2-1776514185972-njyyyg.webp?v=1776514187675" alt="התקנת שער פאנלים חדש לכניסה עסקית" data-element-type="image" data-element-id="img-1776512279764-yae614er1" style="display: block !important; object-fit: cover !important; object-position: 50% 33% !important; margin: 0px !important; left: -1% !important; top: -11.009194% !important; width: 102% !important; height: 133.361194% !important; max-width: none !important; max-height: none !important; position: absolute !important;" data-zappy-zoom="1.02" data-zappy-original-width="584" data-zappy-original-height="335" data-zappy-object-position="50% 33%"></div>
-          <div class="project-badge project-badge--commercial" style="">מגורים</div>
+          <div class="project-badge project-badge--commercial" >מגורים</div>
         </figure>
         <div class="showcase-card-body">
           <h3 class="showcase-card-title">התקנת שער כניסה לעסק</h3>
@@ -1412,7 +1413,7 @@
         </figure>
         <div class="showcase-card-body">
           <h3 class="showcase-card-title">פתרון תקלה – שער שסירב להיפתח</h3>
-          <p class="showcase-card-result" style=""><span class="result-icon"><svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="cursor: pointer;"><circle cx="7" cy="7" r="7" fill="#1E88E5" opacity="0.12"></circle><path d="M3.5 7.25L5.8 9.5L10.5 4.5" stroke="#1E88E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>זמן השבתה קוצר – הלקוח חזר לשגרה באותו יום</p>
+          <p class="showcase-card-result" ><span class="result-icon"><svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="cursor: pointer;"><circle cx="7" cy="7" r="7" fill="#1E88E5" opacity="0.12"></circle><path d="M3.5 7.25L5.8 9.5L10.5 4.5" stroke="#1E88E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>זמן השבתה קוצר – הלקוח חזר לשגרה באותו יום</p>
         </div>
       </article>
 
@@ -1420,11 +1421,11 @@
       <article class="showcase-card" data-grid-item-index="3">
         <figure class="showcase-figure">
           <div data-zappy-zoom-wrapper="true" data-element-id="img-1776512279764-ae6cwkwnh" data-element-type="image" data-zappy-zoom-wrapper-width="584px" data-zappy-zoom-wrapper-height="335px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 584px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 335px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center"><img data-placeholder="index-showcase-image-4" data-context="A restored and repainted worn panel gate system at a home in the Negev or southern Israel — a before/after style photo showing a refreshed sliding panel gate, with clean panels, new hardware, and improved appearance. The gate looks like new after restoration work." width="600" height="400" src="/assets/site-index-showcase-image-4-1776513819106-4ol5p0.webp?v=1776513820851" alt="שיקום מערכת שער פאנלים בלויה לבית" data-element-type="image" data-element-id="img-1776512279764-ae6cwkwnh" style="object-position: 50% 33% !important; margin: 0px !important; left: -1% !important; top: -11.009194% !important; width: 102% !important; height: 133.361194% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important;" data-zappy-zoom="1.02" data-zappy-original-width="584" data-zappy-original-height="335" data-zappy-object-position="50% 33%"></div>
-          <div class="project-badge project-badge--restore" style="">התקנה</div>
+          <div class="project-badge project-badge--restore" >התקנה</div>
         </figure>
         <div class="showcase-card-body">
-          <h3 class="showcase-card-title" style="">התקנת שער חניה שער כניסה וגדרות</h3>
-          <p class="showcase-card-result" style=""><span class="result-icon"><svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="cursor: pointer;"><circle cx="7" cy="7" r="7" fill="#1E88E5" opacity="0.12"></circle><path d="M3.5 7.25L5.8 9.5L10.5 4.5" stroke="#1E88E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>מראה יוקרתי ותפקוד מלא – שער חדש</p>
+          <h3 class="showcase-card-title" >התקנת שער חניה שער כניסה וגדרות</h3>
+          <p class="showcase-card-result" ><span class="result-icon"><svg data-element-type="icon" data-icon-type="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="cursor: pointer;"><circle cx="7" cy="7" r="7" fill="#1E88E5" opacity="0.12"></circle><path d="M3.5 7.25L5.8 9.5L10.5 4.5" stroke="#1E88E5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>מראה יוקרתי ותפקוד מלא – שער חדש</p>
         </div>
       </article>
 
@@ -1476,8 +1477,8 @@
     <!-- Intro Block -->
     <div class="index-testimonials-intro">
       <p><span class="index-testimonials-label">לקוחות מספרים</span>
-      </p><h2 class="index-testimonials-title" style="">מה אומרים עלינו&nbsp;</h2>
-      <p class="index-testimonials-subtitle" style="">תיקון שערים חשמליים &nbsp;— שירות מהיר, מקצועי ואמין לבתים ועסקים. זה מה שהלקוחות שלנו חוו בפועל.</p>
+      </p><h2 class="index-testimonials-title" >מה אומרים עלינו&nbsp;</h2>
+      <p class="index-testimonials-subtitle" >תיקון שערים חשמליים &nbsp;— שירות מהיר, מקצועי ואמין לבתים ועסקים. זה מה שהלקוחות שלנו חוו בפועל.</p>
     </div>
 
     <!-- Quote Cards -->
@@ -1487,7 +1488,7 @@
       <article class="index-testimonials-card" data-grid-item-index="0">
         <div class="index-testimonials-quote-mark">"</div>
         <h3 class="index-testimonials-card-title">בעל בית פרטי — שער לא נפתח</h3>
-        <p class="index-testimonials-card-text" style="">הגעתי הביתה בערב והשער פשוט לא נפתח. התקשרתי לנתן ותוך פחות משעה הטכנאי כבר היה אצלי. אבחן את התקלה במקום, תיקן אותה מיד, והשער עובד מאז בצורה מושלמת. שירות מהיר ואמין שלא ציפיתי לו.</p>
+        <p class="index-testimonials-card-text" >הגעתי הביתה בערב והשער פשוט לא נפתח. התקשרתי לנתן ותוך פחות משעה הטכנאי כבר היה אצלי. אבחן את התקלה במקום, תיקן אותה מיד, והשער עובד מאז בצורה מושלמת. שירות מהיר ואמין שלא ציפיתי לו.</p>
         <footer class="index-testimonials-card-footer">
           <div class="index-testimonials-stars">
             <i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669122-9xm5xvc80" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-2o4o1myjm" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-3tulnutcg" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-vevdtknms" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-u49oz5jza" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
@@ -1500,7 +1501,7 @@
       <article class="index-testimonials-card" data-grid-item-index="1">
         <div class="index-testimonials-quote-mark">"</div>
         <h3 class="index-testimonials-card-title">עסק מסחרי — תיקון ביום פנייה</h3>
-        <p class="index-testimonials-card-text" style="">שער הכניסה למחסן שלנו תקע באמצע יום עבודה. כל הפעילות נעצרה. פניתי לנ.ט שערים ובתוך שעות ספורות הגיע צוות, זיהה את הבעיה בלוח הבקרה, והחליף את הרכיב הפגום. ידע מקצועי ויחס רציני — בדיוק מה שעסק צריך.</p>
+        <p class="index-testimonials-card-text" >שער הכניסה למחסן שלנו תקע באמצע יום עבודה. כל הפעילות נעצרה. פניתי לנ.ט שערים ובתוך שעות ספורות הגיע צוות, זיהה את הבעיה בלוח הבקרה, והחליף את הרכיב הפגום. ידע מקצועי ויחס רציני — בדיוק מה שעסק צריך.</p>
         <footer class="index-testimonials-card-footer">
           <div class="index-testimonials-stars">
             <i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-aoz62qsoy" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-hvuz8hch5" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-rk37a9m1h" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-0cxlsayq5" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-ty16kwisv" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
@@ -1513,7 +1514,7 @@
       <article class="index-testimonials-card" data-grid-item-index="2">
         <div class="index-testimonials-quote-mark">"</div>
         <h3 class="index-testimonials-card-title">התקנה חדשה — שער פאנלים לבית</h3>
-        <p class="index-testimonials-card-text" style="">החלטנו להתקין שער פנלים חשמלי חדש לגמרי. נ.ט שערים הגיעו, מדדו, הסבירו בדיוק מה יתאים לנו, וביצעו את ההתקנה בצורה מסודרת ונקייה. הכל עובד מצוין, ואפשר לסמוך עליהם שיחזרו אם יהיה צורך.</p>
+        <p class="index-testimonials-card-text" >החלטנו להתקין שער פנלים חשמלי חדש לגמרי. נ.ט שערים הגיעו, מדדו, הסבירו בדיוק מה יתאים לנו, וביצעו את ההתקנה בצורה מסודרת ונקייה. הכל עובד מצוין, ואפשר לסמוך עליהם שיחזרו אם יהיה צורך.</p>
         <footer class="index-testimonials-card-footer">
           <div class="index-testimonials-stars">
             <i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-sgdgcy4e6" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-2d7avxt33" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-blmovss50" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-lnovgxxl5" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i><i class="fas fa-star" data-element-type="icon" data-element-id="icon-1778489669123-e7geh81qh" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
@@ -1528,7 +1529,7 @@
     <div class="index-testimonials-trust-row">
       <div class="index-testimonials-trust-item">
         <i class="fas fa-map-marker-alt index-testimonials-trust-icon" data-element-type="icon" data-element-id="icon-1778489669123-o2gyn2mib" data-icon-type="fontawesome"></i>
-        <span style="">רח ירושלים, ראשון לציון, מרכז, ישראל</span>
+        <span >רח ירושלים, ראשון לציון, מרכז, ישראל</span>
       </div>
       <div class="index-testimonials-trust-divider" aria-hidden="true"></div>
       <div class="index-testimonials-trust-item">
@@ -1577,8 +1578,8 @@
 
     <!-- Section Header -->
     <div class="index-stats-header">
-      <h2 class="index-stats-title" style="">למה בוחרים ב<span class="index-stats-accent" style="color: rgb(31, 41, 51) !important;">נ.ט שערים</span>?</h2>
-      <p class="index-stats-subtitle" style="">מומחים לתיקון שערים חשמליים &nbsp;— מגיעים מהר, עובדים נכון, מסיימים בזמן</p>
+      <h2 class="index-stats-title" >למה בוחרים ב<span class="index-stats-accent" style="color: rgb(31, 41, 51) !important;">נ.ט שערים</span>?</h2>
+      <p class="index-stats-subtitle" >מומחים לתיקון שערים חשמליים &nbsp;— מגיעים מהר, עובדים נכון, מסיימים בזמן</p>
     </div>
 
     <!-- Main Two-Zone Layout -->
@@ -1593,8 +1594,8 @@
           </div>
           <div class="index-stats-card-content">
             <div class="index-stats-number">עד 2 שעות</div>
-            <div class="index-stats-label" style="">זמן תגובה ממוצע</div>
-            <p class="index-stats-desc" style="">הגעה מהירה לכל קריאת שירות — בית פרטי, עסק, מחסן או שער תעשייתי</p>
+            <div class="index-stats-label" >זמן תגובה ממוצע</div>
+            <p class="index-stats-desc" >הגעה מהירה לכל קריאת שירות — בית פרטי, עסק, מחסן או שער תעשייתי</p>
           </div>
         </article>
 
@@ -1605,7 +1606,7 @@
           <div class="index-stats-card-content">
             <div class="index-stats-number">+500 לקוחות</div>
             <div class="index-stats-label">בתים ועסקים שירתנו</div>
-            <p class="index-stats-desc" style="">ניסיון רב בשירות שערי חניה מסוג פנלים לבתים פרטיים, קומפלקסים ומפעלים</p>
+            <p class="index-stats-desc" >ניסיון רב בשירות שערי חניה מסוג פנלים לבתים פרטיים, קומפלקסים ומפעלים</p>
           </div>
         </article>
 
@@ -1614,9 +1615,9 @@
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
           </div>
           <div class="index-stats-card-content">
-            <div class="index-stats-number" style="">מומחי פנלים</div>
-            <div class="index-stats-label" style="">התמחות בשערי חניה פנלים</div>
-            <p class="index-stats-desc" style="">תיקון והתקנת שערי חניה פנלים חשמליים — מהאבחון ועד הסיום, עם אחריות על העבודה</p>
+            <div class="index-stats-number" >מומחי פנלים</div>
+            <div class="index-stats-label" >התמחות בשערי חניה פנלים</div>
+            <p class="index-stats-desc" >תיקון והתקנת שערי חניה פנלים חשמליים — מהאבחון ועד הסיום, עם אחריות על העבודה</p>
           </div>
         </article>
 
@@ -1642,16 +1643,16 @@
       <aside class="index-stats-map-panel">
         <div class="index-stats-map-header">
           <h3 class="index-stats-map-title" style="max-width: 65ch; margin-left: auto; margin-right: auto;" data-zappy-text-width="readable">אזורי שירות&nbsp;</h3>
-          <p class="index-stats-map-subtitle" style="">מגיעים לכל יישוב, עסק ומתחם תעשייתי&nbsp;</p>
+          <p class="index-stats-map-subtitle" >מגיעים לכל יישוב, עסק ומתחם תעשייתי&nbsp;</p>
         </div>
 
         <div class="index-stats-map-image-wrap" style="text-align: right;">
-          <img data-placeholder="index-stats-image-1" data-context="A clean illustrated map of southern Israel (Negev region) highlighting service coverage areas with pin markers. The map uses a muted teal and navy color scheme with one amber/golden highlighted region marking the main service area. Shows cities like Beer Sheva, Arad, Dimona, Eilat, Sderot, Netivot, Ofakim. The style is professional and technical, like a blueprint or service coverage map. White background with subtle grid lines." width="600" height="400" src="/assets/site-index-stats-image-1-1779131288734-jrwjvq.webp?v=1779131288734" alt="מפת אזורי שירות שערים חשמליים בישראל" class="index-stats-map-img" data-element-type="image" data-element-id="img-1776511320668-klufacsz2" style="">
+          <img data-placeholder="index-stats-image-1" data-context="A clean illustrated map of southern Israel (Negev region) highlighting service coverage areas with pin markers. The map uses a muted teal and navy color scheme with one amber/golden highlighted region marking the main service area. Shows cities like Beer Sheva, Arad, Dimona, Eilat, Sderot, Netivot, Ofakim. The style is professional and technical, like a blueprint or service coverage map. White background with subtle grid lines." width="600" height="400" src="/assets/site-index-stats-image-1-1779131288734-jrwjvq.webp?v=1779131288734" alt="מפת אזורי שירות שערים חשמליים בישראל" class="index-stats-map-img" data-element-type="image" data-element-id="img-1776511320668-klufacsz2" >
           <!-- Map Pins -->
-          <div class="index-stats-map-pins" aria-hidden="true" style="">
+          <div class="index-stats-map-pins" aria-hidden="true" >
             <span class="map-pin map-pin--primary" style="top: 28%; inset-inline-end: 38%;">
               <i class="fa-solid fa-location-dot" data-element-type="icon" data-element-id="icon-1776511320659-c3weubwpq" data-icon-type="fontawesome" style="cursor: pointer;"></i>
-              <span class="pin-label" style="">רח ירושלים, ראשון לציון, מרכז, ישראל</span>
+              <span class="pin-label" >רח ירושלים, ראשון לציון, מרכז, ישראל</span>
             </span>
             <span class="map-pin map-pin--secondary" style="top:18%;inset-inline-end:52%">
               <i class="fa-solid fa-location-dot" data-element-type="icon" data-element-id="icon-1776511320659-u9tz317qf" data-icon-type="fontawesome" style="cursor: pointer;"></i>
@@ -1687,11 +1688,11 @@
           </div>
           <div class="index-stats-coverage-item" data-grid-item-index="3">
             <p><i class="fa-solid fa-circle-check" aria-hidden="true" data-element-type="icon" data-element-id="icon-1776511320661-4yk54coaz" data-icon-type="fontawesome" style="pointer-events: auto; cursor: pointer;"></i>
-            <span style="">יישובים וקיבוצים</span>
+            <span >יישובים וקיבוצים</span>
           </p></div>
         </div>
 
-        <p class="index-stats-map-desc" style="">נ.ט שערים מתמחים ב<strong>תיקון שערים חשמליים </strong>, כולל יישובים, קיבוצים, מתחמי מגורים, עסקים, מחסנים וכניסות תעשייתיות. שירות מהיר, מקצועי ואמין לכל לקוח.</p>
+        <p class="index-stats-map-desc" >נ.ט שערים מתמחים ב<strong>תיקון שערים חשמליים </strong>, כולל יישובים, קיבוצים, מתחמי מגורים, עסקים, מחסנים וכניסות תעשייתיות. שירות מהיר, מקצועי ואמין לכל לקוח.</p>
       </aside>
 
     </div>
@@ -1770,10 +1771,10 @@
       <!-- START: Persuasive copy column -->
       <div class="index-contact-section__copy" data-grid-item-index="0">
         <div class="index-contact-section__label">צרו קשר עכשיו</div>
-        <h2 class="index-contact-section__heading" style="">צריכים תיקון שערים חשמליים או התקנת שער חניה? אנחנו כאן בשבילכם</h2>
-        <p class="index-contact-section__lead" style="">אל תחכו עם שער תקוע — כל עיכוב עולה לכם זמן ואבטחה. נ.ט שערים — טכנאי שערים חשמליים, מגיעים מהר, עובדים מקצועי, ומשאירים אתכם רגועים.</p>
+        <h2 class="index-contact-section__heading" >צריכים תיקון שערים חשמליים או התקנת שער חניה? אנחנו כאן בשבילכם</h2>
+        <p class="index-contact-section__lead" >אל תחכו עם שער תקוע — כל עיכוב עולה לכם זמן ואבטחה. נ.ט שערים — טכנאי שערים חשמליים, מגיעים מהר, עובדים מקצועי, ומשאירים אתכם רגועים.</p>
 
-        <ul class="index-contact-section__reasons" style=""><li class="index-contact-section__reason-item">
+        <ul class="index-contact-section__reasons" ><li class="index-contact-section__reason-item">
             <span class="index-contact-section__reason-icon" aria-hidden="true">
               <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;">
                 <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"></circle>
@@ -1871,7 +1872,7 @@
           <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle; margin-left:6px; flex-shrink:0;">
             <path d="M8 1L10 6H15L11 9.5L12.5 14.5L8 11.5L3.5 14.5L5 9.5L1 6H6L8 1Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"></path>
           </svg>
-          <span style="">מומחים לתיקון שערים חשמליים — מגיעים אליכם מהר ועובדים בצורה מקצועית</span>
+          <span >מומחים לתיקון שערים חשמליים — מגיעים אליכם מהר ועובדים בצורה מקצועית</span>
         </div>
       </div>
 
@@ -1931,7 +1932,7 @@
         <!-- Column 1: Company Info -->
         <div class="footer-col footer-brand">
           <div data-zappy-zoom-wrapper="true" data-element-id="img-1776523862688-xu3af65ud" data-element-type="image" data-zappy-zoom-wrapper-width="60px" data-zappy-zoom-wrapper-height="40px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 60px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 40px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img src="/assets/logo-1779130765819-2w4omq.webp?v=1779130768252" alt="נ.ט שערים" class="logo" data-element-type="image" data-element-id="img-1776523862688-xu3af65ud" data-zappy-footer-image="true" style="object-position: 50% 50% !important; object-fit: fill !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 100% !important; max-width: none !important; max-height: none !important; display: block !important;" data-zappy-zoom="0.5" data-zappy-original-width="60" data-zappy-original-height="40" data-zappy-object-position="50% 50%"></div>
-          <p class="footer-tagline" style="">מומחים בהתקנה ותיקון שערים חשמליים . מקצועיות, אמינות ושירות מהיר לביתך ולעסקך.</p>
+          <p class="footer-tagline" >מומחים בהתקנה ותיקון שערים חשמליים . מקצועיות, אמינות ושירות מהיר לביתך ולעסקך.</p>
           <div class="footer-social">
             <a href="https://facebook.com/profile.php?id=61578002891388" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
@@ -1944,10 +1945,10 @@
           <h3 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h3>
           <ul class="footer-links">
             <li><a href="#services"><i class="fas fa-chevron-left"></i> שירותים</a></li>
-            <li><a href="#benefits" style=""><i class="fas fa-chevron-left" style="cursor: pointer;"></i> יתרונות</a></li>
+            <li><a href="#benefits" ><i class="fas fa-chevron-left" style="cursor: pointer;"></i> יתרונות</a></li>
             <li><a href="#showcase"><i class="fas fa-chevron-left"></i> גלריה</a></li>
-            <li><a href="#testimonials" style=""><i class="fas fa-chevron-left" style="cursor: pointer;"></i> המלצות</a></li>
-            <li><a href="#stats" style=""><i class="fas fa-chevron-left" style="cursor: pointer;"></i> הישגים</a></li>
+            <li><a href="#testimonials" ><i class="fas fa-chevron-left" style="cursor: pointer;"></i> המלצות</a></li>
+            <li><a href="#stats" ><i class="fas fa-chevron-left" style="cursor: pointer;"></i> הישגים</a></li>
           </ul>
         </div>
 
@@ -1961,7 +1962,7 @@
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1776523862687-vn0vikus6" data-icon-type="fontawesome"></i></span>
-              <span class="contact-text"><a href="tel:0772314949">077-231-4949</a></span>
+              <span class="contact-text"><a href="tel:0772314949" onclick="return gtag_report_conversion('tel:0772314949');">077-231-4949</a></span>
             </li>
             <li><a href="/" style="display: flex; align-items: flex-start; gap: inherit;"><span class="contact-icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>
               <span class="contact-text">רח ירושלים, ראשון לציון, מרכז, ישראל</span></a></li>
